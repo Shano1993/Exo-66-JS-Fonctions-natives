@@ -29,6 +29,35 @@ if(isNaN(nonNumerique.innerHTML)) {
     nonNumerique.innerHTML = 0;
 }
 
+/*
+    Random
+ */
+
+let aleatoire = document.getElementById('random');
+for (let x = 0; x < 1; x++) {
+    aleatoire.innerHTML = Math.random();
+}
+
+/*
+    Trunc
+ */
+
+let trunc = document.getElementById('trunc');
+trunc.innerHTML = Math.trunc(trunc.innerHTML);
+
+/*
+    Replace
+ */
+
+let remplace = document.getElementById('replace');
+remplace.innerHTML = remplace.innerHTML.replace( 'world ', 'Hanotiau Stefan');
+
+console.log(random());
+
+
+
+
+
 
 
 
